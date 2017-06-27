@@ -1,0 +1,66 @@
+/*  TYPOGRAPHY
+-------------------------------------------------- */
+
+// Smooth fonts on Mac
+
+body {
+  
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  
+}
+
+.index {
+  
+  h1 {
+    
+    font-size: 32px;
+    margin-top: 0;
+    
+  }
+}
+
+//
+
+.sidebar { 
+  
+  h3 {
+    
+    font-size: $font-size-h3 - 9;
+    border-bottom: 1px solid;
+    line-height: 2;
+    margin-top: 5px;
+    
+  }
+  
+  h4 {
+    
+    font-size: $font-size-h4 - 4;
+  }
+  
+}
+
+.highlight {
+  
+  background-color: #16d2c5;
+  padding: 0 5px;
+  
+}
+
+// Frontpage grey text headers to indicate sections
+
+h2.subtle {
+
+  font-size: 25px;
+  color: #a1a2a2;
+  margin: 1em 0;
+
+}
+
+h3.subtle {
+
+  font-size: 20px;
+  color: #a1a2a2;
+  margin: 1em 0;
+
+}

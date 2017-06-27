@@ -1,0 +1,24 @@
+.feed-container {}
+
+.feed {}
+
+.feed-item {
+
+  margin: 1em 0;
+  
+}
+
+
+// Frontpage news feed
+
+.list-feed-news {
+  
+  li {
+    
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    
+  }
+}
+

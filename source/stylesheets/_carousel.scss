@@ -1,0 +1,20 @@
+.carousel-inner .item {
+  opacity: 0.5;
+  transition-property: opacity;
+}
+
+.carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-inner .active.left,
+.carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-inner .next.left,
+.carousel-inner .prev.right {
+  opacity: 1;
+}
