@@ -4,14 +4,38 @@
   background-color: $brand-grey;
   font-size: 18px;
   padding: 0.8em;
-  font-weight: 700;
   margin-bottom: 2em;
+  font-weight: 700;
   
   h2, h3, h4, h5  {
     
     margin-top: 5px;
-    color: darken( $brand-primary, 5% );
     font-size: 30px;
+    font-weight: 700;
+  }
+  
+  h4 {
+    
+    font-size: 25px;
+    
+  }
+  
+  h5 {
+    
+    font-size: 20px;
+  }
+  
+  .list-unstyled li {
+    
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+  }
+  
+  p {
+    
+    font-weight: 500;
+    
   }
   
 }
@@ -146,4 +170,20 @@
   
   margin-bottom: 0;
   
+}
+
+.block-with-image {
+  
+  padding: 0;
+  
+  .block-with-image-inner {
+    
+    padding: 1em 0.8em 0 0;
+    
+    @media screen and (max-width: $screen-xs) {
+    
+    padding: 1em;
+    
+  }
+  }
 }

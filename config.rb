@@ -47,6 +47,12 @@
 #   end
 # end
 
+helpers do
+  def is_page_selected(page)
+    current_page.url == page ? "active" : ''
+  end
+end
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'

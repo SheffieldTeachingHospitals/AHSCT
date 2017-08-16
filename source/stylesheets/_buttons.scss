@@ -4,14 +4,6 @@
   
 }
 
-.jumbotron {
-  
-  .btn-wire {
-    
-    margin-top: 10px;
-    
-  }
-}
 
 .btn-headroom {
   
@@ -23,5 +15,11 @@
   
   border-radius: 36px;
   // padding: 6px 36px;
+  
+  @media screen and (max-width: $screen-xs) {
+    
+    margin-bottom: 5px;
+    
+  }
   
 }

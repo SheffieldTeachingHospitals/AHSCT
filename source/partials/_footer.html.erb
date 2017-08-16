@@ -1,18 +1,74 @@
 <footer class="sitewide-footer">
   <div class="container">
+    
     <div class="row">
-      <div class="col-md-12">
-        <ul class="list-inline">
-            <li><a href="http://www.sth.nhs.uk/about-us">About us</a>
+      <div class="col-md-4" id="footer-faq">
+          <h4>Frequently asked Questions</h4>
+          <ul class="list-unstyled">
+            <li><%= link_to "What is Autologous Haematopoietic Stem Cell Transplantation (AHSCT)?", "frequently-asked-questions.html#1" %></li>
+            <li><%= link_to "What are the benefits of the treatment?", "frequently-asked-questions.html#2" %></li>
+            <li><%= link_to "What are the risks?", "frequently-asked-questions.html#3" %></li>
+            <li><%= link_to "Does it work for progressive MS?", "frequently-asked-questions.html#4" %></li>
+            <li><%= link_to "Should I be trying to get AHSCT?", "frequently-asked-questions.html#5" %></li>
+            <li><%= link_to "Full list of questions", "frequently-asked-questions.html" %></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-3" id="footer-resources">
+          <h4>External resources</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://www.sth.nhs.uk/" target="_blank">Sheffield Teaching Hospitals Website</a></li>
+            <li><a href="https://www.mssociety.org.uk/" target="_blank">MS Society Website</a></li> 
+            <li><a href="https://www.mstrust.org.uk/" target="_blank">MS Trust Website</a></li> 
+            <li><a href="https://www.mstrust.org.uk/a-z/stem-cell-therapy" target="_blank">Stem Cell Therapy (MS Trust)</a></li> 
+            <li><a href="https://www.mssociety.org.uk/ms-research/emerging-areas/stem-cells/AHSCT" target="_blank">MS Society Autologous Haematopoietic Stem Cell Transplantation Page</a></li> 
+            <li><a href="http://shift.ms/" target="_blank">Shift.ms - A social network for people with MS</a></li> 
+          </ul>
+        </div>
+
+        
+        <div class="col-md-5" id="footer-charity">
+          <h4>Help Support Future Research</h4>
+          <a href="http://www.sheffieldhospitalscharity.org.uk/why-help-patients/multiple-sclerosis.aspx" target="_blank"><img alt="Support us by donating to Sheffield Hospitals Charity" src="http://www.sth.nhs.uk/clientfiles/Image/footer-logo[1].png" class="pull-right img-spacer"></a>
+          <p>Help support future research by donating to the Sheffield Hospitals Charity Stem Cell Therapy Multiple Sclerosis Fund.</p>
+          <p>If you would like to make a donation to support research in this  area of treatment please contact Sheffield Hospitals Charity on 44(0) 114 271 1351 or visit <a href="http://www.sheffieldhospitalscharity.org.uk/why-help-patients/multiple-sclerosis.aspx" target="_blank">their dedicated website</a>.</p>
+          <div id="paypal-button" class="text-center">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="443VCHPBFRYPG">
+              <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+        </div>
+      
+    </div>
+    
+    
+    <div class="row">
+      <div class="col-md-10">
+        <ul class="list-inline list-footer">
+            <li><a href="http://www.sth.nhs.uk/about-us" title="About Sheffield Teaching Hospitals NHS Foundation Trust" target="_blank">About us</a>
             </li>
-            <li><a href="http://www.sth.nhs.uk/cookie-policy">Privacy Policy</a>
+          <li><a href="http://www.sth.nhs.uk/services/a-z-of-services?id=112" title="About our Multiple Sclerosis service" target="_blank">Our Service</a>
             </li>
-            <li><a href="http://www.sth.nhs.uk/news/media/media-enquiries">Press</a>
+            <li><a href="http://www.sth.nhs.uk/cookie-policy" title="Privacy Policy" target="_blank">Privacy Policy</a>
+            </li>
+            <li><a href="http://www.sth.nhs.uk/news/media/media-enquiries" title="Press contact details" target="_blank">Press</a>
             </li>
             <li> &copy; Sheffield Teaching Hospitals NHS Foundation Trust 2015-2017
             </li>
           </ul>
       </div>
+      
+      <div class="col-md-2">
+        <ul class="list-inline list-footer">
+          <li>
+            <a href="#" title="Back to the top of the page">Back to the top</a>
+          </li>
+        </ul>
+      </div>
+      
     </div>
 
   </div>
